@@ -11,9 +11,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        cardView.layer.cornerCurve = .continuous
+//        cardView.layer.cornerRadius = 30
+//        blurView.layer.cornerCurve = .continuous
+//        blurView.layer.cornerRadius = 30
+//        blurView.layer.masksToBounds = true
+//
+//        cardView.layer.shadowColor = UIColor(named: "Shadow")?.cgColor
+//        cardView.layer.shadowOpacity = 0.5
+//        cardView.layer.shadowOffset = CGSize(width: 0, height: 10)
+//        cardView.layer.shadowRadius = 20
     }
-
 
 }
 
