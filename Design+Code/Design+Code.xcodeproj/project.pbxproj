@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */; };
 		2E4EBB882A5046DA00C70A21 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB842A5046DA00C70A21 /* CustomBlurView.swift */; };
 		2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */; };
 		2E4EBB8A2A5046DA00C70A21 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB862A5046DA00C70A21 /* Font.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		2E4EBB842A5046DA00C70A21 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
 		2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		2E4EBB862A5046DA00C70A21 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				2EC5D12E2A4F0B3B00A0555C /* AppDelegate.swift */,
 				2EC5D1302A4F0B3B00A0555C /* SceneDelegate.swift */,
 				2EC5D1322A4F0B3B00A0555C /* ViewController.swift */,
+				2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */,
 				2EC5D1342A4F0B3B00A0555C /* Main.storyboard */,
 				2EC5D1372A4F0B3D00A0555C /* Assets.xcassets */,
 				2EC5D1392A4F0B3D00A0555C /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */,
 				2EC5D1332A4F0B3B00A0555C /* ViewController.swift in Sources */,
 				2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */,
 				2E4EBB8A2A5046DA00C70A21 /* Font.swift in Sources */,
