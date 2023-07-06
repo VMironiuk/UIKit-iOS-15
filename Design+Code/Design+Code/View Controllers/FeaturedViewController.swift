@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FeaturedViewController.swift
 //  Design+Code
 //
 //  Created by Volodymyr Myroniuk on 30.06.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class FeaturedViewController: UIViewController {
 
     @IBOutlet private weak var cardView: CustomView!
     @IBOutlet private weak var handbooksCollectionView: UICollectionView!
@@ -17,6 +17,7 @@ final class ViewController: UIViewController {
         
         handbooksCollectionView.delegate = self
         handbooksCollectionView.dataSource = self
+        handbooksCollectionView.layer.masksToBounds = false
         
 //        cardView.layer.cornerCurve = .continuous
 //        cardView.layer.cornerRadius = 30
@@ -32,23 +33,26 @@ final class ViewController: UIViewController {
 
 }
 
-extension ViewController: UICollectionViewDelegate {}
+extension FeaturedViewController: UICollectionViewDelegate {}
 
-extension ViewController: UICollectionViewDataSource {
+extension FeaturedViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        2
+        handbooks.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CourseCell", for: indexPath) as! HandbookCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(
+            withReuseIdentifier: "CourseCell",
+            for: indexPath) as! HandbookCollectionViewCell
+        let handbook = handbooks[indexPath.item]
         
-        cell.titleLabel.text = "SwiftUI Handbook"
-        cell.subtitleLabel.text = "20 SECTIONS - 3 HOURS"
-        cell.descriptionLabel.text = "Learn about all the basics of SwiftUI"
-        cell.gradient.colors = [UIColor.red.cgColor, UIColor.systemPink.cgColor]
-        cell.logo.image = UIImage(named: "Logo React")
-        cell.banner.image = UIImage(named: "Illustration 2")
+        cell.titleLabel.text = handbook.title
+        cell.subtitleLabel.text = handbook.subtitle
+        cell.descriptionLabel.text = handbook.description
+        cell.gradient.colors = handbook.colors
+        cell.logo.image = handbook.icon
+        cell.banner.image = handbook.banner
         
         return cell
     }
