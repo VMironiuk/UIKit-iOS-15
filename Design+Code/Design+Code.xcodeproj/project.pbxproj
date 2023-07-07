@@ -22,6 +22,7 @@
 		2EC5D1462A4F0B3E00A0555C /* Design_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1452A4F0B3E00A0555C /* Design_CodeTests.swift */; };
 		2EC5D1502A4F0B3E00A0555C /* Design_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */; };
 		2EC5D1522A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */; };
+		2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2EC5D14B2A4F0B3E00A0555C /* Design+CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design+CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITests.swift; sourceTree = "<group>"; };
 		2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */,
+				2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				2E4EBB8B2A5046DA00C70A21 /* CustomImageView.swift in Sources */,
 				2EC5D12F2A4F0B3B00A0555C /* AppDelegate.swift in Sources */,
 				2E4EBB882A5046DA00C70A21 /* CustomBlurView.swift in Sources */,
+				2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */,
 				2EC5D1312A4F0B3B00A0555C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
