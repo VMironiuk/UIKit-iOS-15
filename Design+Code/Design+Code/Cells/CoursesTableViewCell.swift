@@ -9,6 +9,13 @@ import UIKit
 
 class CoursesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var courseBackground: UIImageView!
+    @IBOutlet weak var courseBanner: UIImageView!
+    @IBOutlet weak var courseLogo: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

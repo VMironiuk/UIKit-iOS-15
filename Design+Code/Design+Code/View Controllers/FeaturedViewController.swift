@@ -6,11 +6,16 @@
 //
 
 import UIKit
+import Combine
 
 final class FeaturedViewController: UIViewController {
 
     @IBOutlet private weak var cardView: CustomView!
     @IBOutlet private weak var handbooksCollectionView: UICollectionView!
+    @IBOutlet private weak var coursesTableView: UITableView!
+    @IBOutlet private weak var tableViewHeight: NSLayoutConstraint!
+    
+    private var tokens: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,15 @@ final class FeaturedViewController: UIViewController {
         handbooksCollectionView.delegate = self
         handbooksCollectionView.dataSource = self
         handbooksCollectionView.layer.masksToBounds = false
+        
+        coursesTableView.delegate = self
+        coursesTableView.dataSource = self
+        coursesTableView.layer.masksToBounds = false
+        coursesTableView.publisher(for: \.contentSize)
+            .sink { newContentSize in
+                self.tableViewHeight.constant = newContentSize.height
+            }
+            .store(in: &tokens)
         
 //        cardView.layer.cornerCurve = .continuous
 //        cardView.layer.cornerRadius = 30
@@ -53,6 +67,42 @@ extension FeaturedViewController: UICollectionViewDataSource {
         cell.gradient.colors = handbook.colors
         cell.logo.image = handbook.icon
         cell.banner.image = handbook.banner
+        
+        return cell
+    }
+    
+}
+
+extension FeaturedViewController: UITableViewDelegate {}
+
+extension FeaturedViewController: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        courses.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        1
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        section == 0 ? 0 : 20
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CoursesTableCell", for: indexPath) as! CoursesTableViewCell
+        let course = courses[indexPath.section]
+        
+        cell.titleLabel.text = course.title
+        cell.subtitleLabel.text = course.subtitle
+        cell.descriptionLabel.text = course.description
+        cell.courseBackground.image = course.background
+        cell.courseBanner.image = course.banner
+        cell.courseLogo.image = course.icon
         
         return cell
     }
