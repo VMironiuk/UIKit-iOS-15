@@ -14,6 +14,7 @@ final class FeaturedViewController: UIViewController {
     @IBOutlet private weak var handbooksCollectionView: UICollectionView!
     @IBOutlet private weak var coursesTableView: UITableView!
     @IBOutlet private weak var tableViewHeight: NSLayoutConstraint!
+    @IBOutlet private weak var scrollView: UIScrollView!
     
     private var tokens: Set<AnyCancellable> = []
     
@@ -32,6 +33,8 @@ final class FeaturedViewController: UIViewController {
                 self.tableViewHeight.constant = newContentSize.height
             }
             .store(in: &tokens)
+        
+        scrollView.delegate = self
         
 //        cardView.layer.cornerCurve = .continuous
 //        cardView.layer.cornerRadius = 30
@@ -119,6 +122,24 @@ extension FeaturedViewController: UITableViewDataSource {
         cell.courseLogo.image = course.icon
         
         return cell
+    }
+    
+}
+
+extension FeaturedViewController: UIScrollViewDelegate {
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let contentHeight = scrollView.contentSize.height
+        let lastScrollYPos = scrollView.contentOffset.y
+        
+        let percentage = lastScrollYPos / contentHeight
+        if percentage <= 0.15 {
+            title = "Featured"
+        } else if percentage <= 0.33 {
+            title = "Handbooks"
+        } else {
+            title = "Courses"
+        }
     }
     
 }
