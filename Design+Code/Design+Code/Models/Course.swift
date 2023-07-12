@@ -16,6 +16,7 @@ struct Course {
     let authors: [String]?
     let colors: [CGColor]?
     let background: UIImage?
+    let sections: [Section]
 }
 
 let handbooks = [
@@ -30,7 +31,8 @@ let handbooks = [
             UIColor(red: 0.387, green: 0.041, blue: 0.55, alpha: 1.0).cgColor,
             UIColor(red: 0.251, green: 0.555, blue: 0.835, alpha: 1.0).cgColor
         ],
-        background: nil
+        background: nil,
+        sections: sections
     ),
     Course(
         title: "React Hooks Handbook",
@@ -44,7 +46,8 @@ let handbooks = [
             UIColor(red: 0.883, green: 0.283, blue: 0.523, alpha: 1.0).cgColor,
             UIColor(red: 0.984, green: 0.647, blue: 0.545, alpha: 1.0).cgColor
         ],
-        background: nil
+        background: nil,
+        sections: sections
     )
 ]
 
@@ -57,7 +60,8 @@ let courses = [
         banner: UIImage(named: "Illustration 4"),
         authors: ["Meng To"],
         colors: nil,
-        background: UIImage(named: "Background 3")
+        background: UIImage(named: "Background 3"),
+        sections: sections
     ),
     Course(
         title: "Flutter for Designers",
@@ -67,7 +71,8 @@ let courses = [
         banner: UIImage(named: "Illustration 1"),
         authors: ["Sai Kambampati"],
         colors: nil,
-        background: UIImage(named: "Background 4")
+        background: UIImage(named: "Background 4"),
+        sections: sections
     ),
     Course(
         title: "React Hooks Advanced",
@@ -77,6 +82,7 @@ let courses = [
         banner: UIImage(named: "Illustration 2"),
         authors: ["Meng To"],
         colors: nil,
-        background: UIImage(named: "Background 5")
+        background: UIImage(named: "Background 5"),
+        sections: sections
     )
 ]

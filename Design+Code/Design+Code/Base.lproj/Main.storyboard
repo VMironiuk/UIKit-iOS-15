@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="dvO-Sc-aMc">
-                                        <rect key="frame" x="0.0" y="181.00000000000003" width="393" height="464.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="-155" width="393" height="464.66666666666669"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tt5-TB-KLp" userLabel="Card View" customClass="CustomView" customModule="Design_Code" customModuleProvider="target">
                                         <rect key="frame" x="16" y="20" width="361" height="362.33333333333331"/>
@@ -457,11 +457,28 @@
                         <outlet property="coursesTableView" destination="yZj-6a-edX" id="Yht-Lv-iCw"/>
                         <outlet property="handbooksCollectionView" destination="xZJ-cg-8Wa" id="xJR-wF-YXa"/>
                         <outlet property="tableViewHeight" destination="wJv-dv-qJ4" id="4en-dK-lDG"/>
+                        <segue destination="f9T-IJ-pMa" kind="presentation" identifier="presentCourse" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hxG-7h-4Xu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1901.5267175572519" y="-656.33802816901414"/>
+        </scene>
+        <!--Courses View Controller-->
+        <scene sceneID="E7q-d2-pj3">
+            <objects>
+                <viewController id="f9T-IJ-pMa" customClass="CoursesViewController" customModule="Design_Code" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="URh-Ft-lbD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PWd-6e-RGU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HgO-HR-dTe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u7a-TD-31c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2718" y="-656"/>
         </scene>
         <!--Learn Now-->
         <scene sceneID="iOP-3Q-b2B">
@@ -559,6 +576,9 @@
         <designable name="pQX-aL-m45">
             <size key="intrinsicContentSize" width="32" height="32"/>
         </designable>
+        <designable name="ryf-SE-hBm">
+            <size key="intrinsicContentSize" width="26" height="26"/>
+        </designable>
     </designables>
     <resources>
         <image name="Background 3" width="350" height="350"/>
@@ -587,6 +607,9 @@
         </namedColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -44,6 +44,12 @@ final class FeaturedViewController: UIViewController {
 //        cardView.layer.shadowOffset = CGSize(width: 0, height: 10)
 //        cardView.layer.shadowRadius = 20
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let detailVC = segue.destination as? CoursesViewController, let course = sender as? Course {
+            detailVC.course = course
+        }
+    }
 
 }
 
@@ -73,7 +79,15 @@ extension FeaturedViewController: UICollectionViewDataSource {
     
 }
 
-extension FeaturedViewController: UITableViewDelegate {}
+extension FeaturedViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let selectedCourse = courses[indexPath.section]
+        performSegue(withIdentifier: "presentCourse", sender: selectedCourse)
+    }
+    
+}
 
 extension FeaturedViewController: UITableViewDataSource {
     

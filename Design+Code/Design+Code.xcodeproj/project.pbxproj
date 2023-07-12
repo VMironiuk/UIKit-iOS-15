@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */; };
+		2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36DA172A5E614E0050D49F /* CoursesViewController.swift */; };
+		2E36DA1A2A5E65570050D49F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36DA192A5E65570050D49F /* Section.swift */; };
 		2E4CD8142A57171E008923A1 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CD8132A57171E008923A1 /* Course.swift */; };
 		2E4EBB882A5046DA00C70A21 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB842A5046DA00C70A21 /* CustomBlurView.swift */; };
 		2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		2E086C812A55C8440044A1F8 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E36DA172A5E614E0050D49F /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		2E36DA192A5E65570050D49F /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		2E4CD8132A57171E008923A1 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		2E4EBB842A5046DA00C70A21 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
 		2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2EC5D1322A4F0B3B00A0555C /* FeaturedViewController.swift */,
+				2E36DA172A5E614E0050D49F /* CoursesViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2E4CD8132A57171E008923A1 /* Course.swift */,
+				2E36DA192A5E65570050D49F /* Section.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -313,12 +319,14 @@
 			files = (
 				2E4CD8142A57171E008923A1 /* Course.swift in Sources */,
 				2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */,
+				2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */,
 				2EC5D1332A4F0B3B00A0555C /* FeaturedViewController.swift in Sources */,
 				2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */,
 				2E4EBB8A2A5046DA00C70A21 /* Font.swift in Sources */,
 				2E4EBB8B2A5046DA00C70A21 /* CustomImageView.swift in Sources */,
 				2EC5D12F2A4F0B3B00A0555C /* AppDelegate.swift in Sources */,
 				2E4EBB882A5046DA00C70A21 /* CustomBlurView.swift in Sources */,
+				2E36DA1A2A5E65570050D49F /* Section.swift in Sources */,
 				2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */,
 				2EC5D1312A4F0B3B00A0555C /* SceneDelegate.swift in Sources */,
 			);
