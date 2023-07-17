@@ -16,8 +16,10 @@ class CoursesViewController: UIViewController {
     @IBOutlet var authorLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var subtitleLabel: UILabel!
-    @IBOutlet weak var sectionsTableView: UITableView!
-    @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
+    @IBOutlet var sectionsTableView: UITableView!
+    @IBOutlet var tableViewHeight: NSLayoutConstraint!
+    @IBOutlet var iconImageView: CustomImageView!
+    @IBOutlet var menuButton: UIButton!
     
     private var tokens: Set<AnyCancellable> = []
     
@@ -33,8 +35,6 @@ class CoursesViewController: UIViewController {
                 self.tableViewHeight.constant = newContentSize.height
             }
             .store(in: &tokens)
-        sectionsTableView.rowHeight = UITableView.automaticDimension
-        sectionsTableView.estimatedRowHeight = UITableView.automaticDimension
         
         self.bannerImage.image = course?.banner
         self.backgroundImage.image = course?.background
@@ -42,6 +42,28 @@ class CoursesViewController: UIViewController {
         self.subtitleLabel.text = course?.subtitle
         self.descriptionLabel.text = course?.description
         self.authorLabel.text = "Taught by \(course?.authors?.formatted(.list(type: .and, width: .standard)) ?? "Design+Code")"
+        self.iconImageView.image = course?.icon
+        
+        let menu = UIMenu(
+            title: "Course Options",
+            options: .displayInline,
+            children: [
+                UIAction(title: "Share", image: UIImage(systemName: "square.and.arrow.up"), handler: { _ in
+                    // Share Course
+                }),
+                UIAction(title: "Take Test", image: UIImage(systemName: "highlighter"), handler: { _ in
+                    // Take Test
+                }),
+                UIAction(title: "Download", image: UIImage(systemName: "square.and.arrow.down"), handler: { _ in
+                    // Download Course
+                }),
+                UIAction(title: "Forums", image: UIImage(systemName: "chevron.left.forwardslash.chevron.right"), handler: { _ in
+                    // Forums
+                }),
+            ]
+        )
+        menuButton.showsMenuAsPrimaryAction = true
+        menuButton.menu = menu
     }
 
     @IBAction func goBack(_ sender: UIButton) {
@@ -56,9 +78,6 @@ extension CoursesViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        UITableView.automaticDimension
-    }
 }
 
 extension CoursesViewController: UITableViewDataSource {
