@@ -941,10 +941,10 @@
             </objects>
             <point key="canvasLocation" x="970" y="-656"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar View Controller-->
         <scene sceneID="E1S-yq-9CL">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uPo-U4-0l7" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uPo-U4-0l7" customClass="CustomTabBarViewController" customModule="Design_Code" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jtt-4j-qcx">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
