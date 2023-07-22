@@ -14,6 +14,9 @@ class ExploreViewController: UIViewController {
     @IBOutlet weak var topicTableView: UITableView!
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var popularCollectionView: UICollectionView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var topicsLabel: UILabel!
+    @IBOutlet var popularLabel: UILabel!
     
     private var tokens: Set<AnyCancellable> = []
     
@@ -37,6 +40,19 @@ class ExploreViewController: UIViewController {
         popularCollectionView.delegate = self
         popularCollectionView.dataSource = self
         popularCollectionView.layer.masksToBounds = false
+        
+        // Accessibility
+        titleLabel.adjustsFontForContentSizeCategory = true
+        titleLabel.font = UIFont.preferredFont(for: .title2, weight: .bold)
+        titleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        
+        topicsLabel.adjustsFontForContentSizeCategory = true
+        topicsLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        topicsLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        popularLabel.adjustsFontForContentSizeCategory = true
+        popularLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        popularLabel.maximumContentSizeCategory = .accessibilityMedium
     }
 }
 
