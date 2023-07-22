@@ -24,6 +24,15 @@ class SectionsCollectionViewCell: UICollectionViewCell {
         layer.masksToBounds = false
         layer.cornerRadius = 30
         layer.cornerCurve = .continuous
+        
+        // Accessibility
+        titleLabel.adjustsFontForContentSizeCategory = true
+        titleLabel.font = UIFont.preferredFont(for: .body, weight: .bold)
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
+        
+        subtitleLabel.adjustsFontForContentSizeCategory = true
+        subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
     }
     
     override func layoutSubviews() {

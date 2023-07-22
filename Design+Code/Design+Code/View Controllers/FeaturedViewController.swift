@@ -15,6 +15,11 @@ final class FeaturedViewController: UIViewController {
     @IBOutlet private weak var coursesTableView: UITableView!
     @IBOutlet private weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet private weak var scrollView: UIScrollView!
+    @IBOutlet private var featuredTitleLabel: UILabel!
+    @IBOutlet private var featuredSubtitleLabel: UILabel!
+    @IBOutlet private var featuredDescriptionLabel: UILabel!
+    @IBOutlet private var handbooksLabel: UILabel!
+    @IBOutlet private var coursesLabel: UILabel!
     
     private var tokens: Set<AnyCancellable> = []
     
@@ -35,6 +40,27 @@ final class FeaturedViewController: UIViewController {
             .store(in: &tokens)
         
         scrollView.delegate = self
+        
+        // Accessibility
+        featuredTitleLabel.adjustsFontForContentSizeCategory = true
+        featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
+        featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        
+        featuredSubtitleLabel.adjustsFontForContentSizeCategory = true
+        featuredSubtitleLabel.font = UIFont.preferredFont(for: .footnote, weight: .bold)
+        featuredSubtitleLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        featuredDescriptionLabel.adjustsFontForContentSizeCategory = true
+        featuredDescriptionLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
+        featuredDescriptionLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        handbooksLabel.adjustsFontForContentSizeCategory = true
+        handbooksLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        handbooksLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        coursesLabel.adjustsFontForContentSizeCategory = true
+        coursesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        coursesLabel.maximumContentSizeCategory = .accessibilityMedium
         
 //        cardView.layer.cornerCurve = .continuous
 //        cardView.layer.cornerRadius = 30
