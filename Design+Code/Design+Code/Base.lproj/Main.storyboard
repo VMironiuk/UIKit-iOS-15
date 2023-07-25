@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uPo-U4-0l7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bn3-lH-1KZ">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="dvO-Sc-aMc">
-                                        <rect key="frame" x="0.0" y="426" width="393" height="464.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="-155" width="393" height="464.66666666666669"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tt5-TB-KLp" userLabel="Card View" customClass="CustomView" customModule="Design_Code" customModuleProvider="target">
                                         <rect key="frame" x="16" y="20" width="361" height="362.33333333333331"/>
@@ -951,6 +951,82 @@
             </objects>
             <point key="canvasLocation" x="970" y="-656"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kkP-am-Cao">
+            <objects>
+                <viewController id="Bn3-lH-1KZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5uS-N7-o2c">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background 6" translatesAutoresizingMaskIntoConstraints="NO" id="994-6G-ZII">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-C5-pX4" customClass="CustomView" customModule="Design_Code" customModuleProvider="target">
+                                <rect key="frame" x="20" y="176" width="353" height="500"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFJ-LJ-Jhu" customClass="CustomBlurView" customModule="Design_Code" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="500"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zvc-U6-QHL">
+                                            <rect key="frame" x="0.0" y="0.0" width="353" height="500"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="regular"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" name="BlurBackground"/>
+                                <constraints>
+                                    <constraint firstItem="nFJ-LJ-Jhu" firstAttribute="top" secondItem="uAm-C5-pX4" secondAttribute="top" id="L9s-oZ-391"/>
+                                    <constraint firstAttribute="bottom" secondItem="nFJ-LJ-Jhu" secondAttribute="bottom" id="cVj-se-82e"/>
+                                    <constraint firstAttribute="height" constant="500" id="kp8-Rp-pGh"/>
+                                    <constraint firstItem="nFJ-LJ-Jhu" firstAttribute="leading" secondItem="uAm-C5-pX4" secondAttribute="leading" id="tLo-Uf-1ar"/>
+                                    <constraint firstAttribute="trailing" secondItem="nFJ-LJ-Jhu" secondAttribute="trailing" id="zYi-np-VD2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.14999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffset">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="Shadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="quaternaryLabelColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="33y-6l-ecc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="33y-6l-ecc" firstAttribute="trailing" secondItem="uAm-C5-pX4" secondAttribute="trailing" constant="20" id="RgS-G4-bo3"/>
+                            <constraint firstItem="994-6G-ZII" firstAttribute="top" secondItem="5uS-N7-o2c" secondAttribute="top" id="WGa-oO-TGi"/>
+                            <constraint firstItem="uAm-C5-pX4" firstAttribute="centerX" secondItem="5uS-N7-o2c" secondAttribute="centerX" id="av7-7y-OLZ"/>
+                            <constraint firstAttribute="bottom" secondItem="994-6G-ZII" secondAttribute="bottom" id="bEO-bW-N6E"/>
+                            <constraint firstItem="uAm-C5-pX4" firstAttribute="centerY" secondItem="5uS-N7-o2c" secondAttribute="centerY" id="cYo-iG-7VX"/>
+                            <constraint firstItem="uAm-C5-pX4" firstAttribute="leading" secondItem="33y-6l-ecc" secondAttribute="leading" constant="20" id="jPm-ez-xCI"/>
+                            <constraint firstItem="994-6G-ZII" firstAttribute="trailing" secondItem="33y-6l-ecc" secondAttribute="trailing" id="k1g-s0-ykd"/>
+                            <constraint firstItem="994-6G-ZII" firstAttribute="leading" secondItem="33y-6l-ecc" secondAttribute="leading" id="u5B-jf-OJk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GVp-Ea-VHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-948.85496183206101" y="4.9295774647887329"/>
+        </scene>
         <!--Custom Tab Bar View Controller-->
         <scene sceneID="E1S-yq-9CL">
             <objects>
@@ -1584,6 +1660,7 @@
         <image name="Avatar" width="1200" height="1200"/>
         <image name="Background 3" width="350" height="350"/>
         <image name="Background 4" width="350" height="350"/>
+        <image name="Background 6" width="3008" height="3008"/>
         <image name="Background01" width="330" height="464.5"/>
         <image name="Background02" width="390" height="668"/>
         <image name="Illustration 1" width="310" height="217"/>
@@ -1611,6 +1688,9 @@
         <namedColor name="TabBarTint">
             <color red="0.38400000333786011" green="0.20399999618530273" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <systemColor name="quaternaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17647058823529413" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
