@@ -40,6 +40,7 @@
 		2EC5D1502A4F0B3E00A0555C /* Design_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */; };
 		2EC5D1522A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */; };
 		2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */; };
+		2EEFD7AD2A77CA7B002450FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITests.swift; sourceTree = "<group>"; };
 		2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				2E36DA172A5E614E0050D49F /* CoursesViewController.swift */,
 				2E99C74D2A683AEC00CB5454 /* ExploreViewController.swift */,
 				2EABCFEE2A717A7C00F64054 /* LoginViewController.swift */,
+				2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */,
 				2EABCFEF2A717A7C00F64054 /* LoginViewController.swift in Sources */,
 				2E2404592A61B05B0045CE0F /* SectionTableViewCell.swift in Sources */,
+				2EEFD7AD2A77CA7B002450FB /* LibraryViewController.swift in Sources */,
 				2E99C74E2A683AEC00CB5454 /* ExploreViewController.swift in Sources */,
 				2EA178F72A67022D00BB1C54 /* CustomTabBarViewController.swift in Sources */,
 				2E8231442A699EDC00B4FCA0 /* TopicsTableViewCell.swift in Sources */,
