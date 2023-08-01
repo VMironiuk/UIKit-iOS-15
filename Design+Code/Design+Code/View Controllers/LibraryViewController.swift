@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import SwiftUI
 
 class LibraryViewController: UIViewController {
     
@@ -48,6 +49,11 @@ class LibraryViewController: UIViewController {
         certificatesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
         certificatesLabel.adjustsFontForContentSizeCategory = true
     }
+    
+    @IBSegueAction func createCertificatesView(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: EmptyView())
+    }
+    
 }
 
 extension LibraryViewController: UICollectionViewDelegate, UICollectionViewDataSource {
