@@ -16,6 +16,9 @@
 		2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */; };
 		2E4EBB8A2A5046DA00C70A21 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB862A5046DA00C70A21 /* Font.swift */; };
 		2E4EBB8B2A5046DA00C70A21 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4EBB872A5046DA00C70A21 /* CustomImageView.swift */; };
+		2E61F1EA2A7A75C0007B93B1 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E72A7A75C0007B93B1 /* FlipView.swift */; };
+		2E61F1EB2A7A75C0007B93B1 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E82A7A75C0007B93B1 /* CertificateItem.swift */; };
+		2E61F1EC2A7A75C0007B93B1 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E92A7A75C0007B93B1 /* CertificateView.swift */; };
 		2E8231442A699EDC00B4FCA0 /* TopicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8231432A699EDC00B4FCA0 /* TopicsTableViewCell.swift */; };
 		2E8231462A69A05B00B4FCA0 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8231452A69A05B00B4FCA0 /* Topic.swift */; };
 		2E99C74C2A6838B500CB5454 /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C74B2A6838B500CB5454 /* SectionsCollectionViewCell.swift */; };
@@ -70,6 +73,9 @@
 		2E4EBB852A5046DA00C70A21 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 		2E4EBB862A5046DA00C70A21 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		2E4EBB872A5046DA00C70A21 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		2E61F1E72A7A75C0007B93B1 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		2E61F1E82A7A75C0007B93B1 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
+		2E61F1E92A7A75C0007B93B1 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
 		2E8231432A699EDC00B4FCA0 /* TopicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsTableViewCell.swift; sourceTree = "<group>"; };
 		2E8231452A69A05B00B4FCA0 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		2E99C74B2A6838B500CB5454 /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -172,6 +178,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		2E61F1E62A7A75C0007B93B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E61F1E72A7A75C0007B93B1 /* FlipView.swift */,
+				2E61F1E82A7A75C0007B93B1 /* CertificateItem.swift */,
+				2E61F1E92A7A75C0007B93B1 /* CertificateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2EC5D1222A4F0B3B00A0555C = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +217,7 @@
 				2E4CD8162A571A77008923A1 /* Cells */,
 				2E4CD8172A571A87008923A1 /* Models */,
 				2E4EBB832A5046DA00C70A21 /* Helpers */,
+				2E61F1E62A7A75C0007B93B1 /* Views */,
 				2EC5D1342A4F0B3B00A0555C /* Main.storyboard */,
 				2EC5D1372A4F0B3D00A0555C /* Assets.xcassets */,
 				2EC5D1392A4F0B3D00A0555C /* LaunchScreen.storyboard */,
@@ -372,6 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E4CD8142A57171E008923A1 /* Course.swift in Sources */,
+				2E61F1EC2A7A75C0007B93B1 /* CertificateView.swift in Sources */,
+				2E61F1EA2A7A75C0007B93B1 /* FlipView.swift in Sources */,
+				2E61F1EB2A7A75C0007B93B1 /* CertificateItem.swift in Sources */,
 				2E8231462A69A05B00B4FCA0 /* Topic.swift in Sources */,
 				2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */,
 				2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */,
