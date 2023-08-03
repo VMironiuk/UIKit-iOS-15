@@ -42,6 +42,8 @@
 		2EC5D1462A4F0B3E00A0555C /* Design_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1452A4F0B3E00A0555C /* Design_CodeTests.swift */; };
 		2EC5D1502A4F0B3E00A0555C /* Design_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */; };
 		2EC5D1522A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */; };
+		2EDF558E2A7BAF4D00D14468 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF558D2A7BAF4D00D14468 /* NotificationTableViewCell.swift */; };
+		2EDF55902A7BAFFA00D14468 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */; };
 		2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */; };
 		2EEFD7AD2A77CA7B002450FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
@@ -96,6 +98,8 @@
 		2EC5D14B2A4F0B3E00A0555C /* Design+CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design+CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITests.swift; sourceTree = "<group>"; };
 		2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EDF558D2A7BAF4D00D14468 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +144,7 @@
 				2E99C74D2A683AEC00CB5454 /* ExploreViewController.swift */,
 				2EABCFEE2A717A7C00F64054 /* LoginViewController.swift */,
 				2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */,
+				2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				2E2404582A61B05B0045CE0F /* SectionTableViewCell.swift */,
 				2E99C74B2A6838B500CB5454 /* SectionsCollectionViewCell.swift */,
 				2E8231432A699EDC00B4FCA0 /* TopicsTableViewCell.swift */,
+				2EDF558D2A7BAF4D00D14468 /* NotificationTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -393,6 +399,7 @@
 				2E61F1EA2A7A75C0007B93B1 /* FlipView.swift in Sources */,
 				2E61F1EB2A7A75C0007B93B1 /* CertificateItem.swift in Sources */,
 				2E8231462A69A05B00B4FCA0 /* Topic.swift in Sources */,
+				2EDF55902A7BAFFA00D14468 /* NotificationsViewController.swift in Sources */,
 				2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */,
 				2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */,
 				2EABCFEF2A717A7C00F64054 /* LoginViewController.swift in Sources */,
@@ -400,6 +407,7 @@
 				2EEFD7AD2A77CA7B002450FB /* LibraryViewController.swift in Sources */,
 				2E99C74E2A683AEC00CB5454 /* ExploreViewController.swift in Sources */,
 				2EA178F72A67022D00BB1C54 /* CustomTabBarViewController.swift in Sources */,
+				2EDF558E2A7BAF4D00D14468 /* NotificationTableViewCell.swift in Sources */,
 				2E8231442A699EDC00B4FCA0 /* TopicsTableViewCell.swift in Sources */,
 				2EC5D1332A4F0B3B00A0555C /* FeaturedViewController.swift in Sources */,
 				2E4EBB892A5046DA00C70A21 /* CustomUIView.swift in Sources */,
