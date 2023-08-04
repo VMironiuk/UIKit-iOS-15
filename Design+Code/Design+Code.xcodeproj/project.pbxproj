@@ -19,6 +19,7 @@
 		2E61F1EA2A7A75C0007B93B1 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E72A7A75C0007B93B1 /* FlipView.swift */; };
 		2E61F1EB2A7A75C0007B93B1 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E82A7A75C0007B93B1 /* CertificateItem.swift */; };
 		2E61F1EC2A7A75C0007B93B1 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E61F1E92A7A75C0007B93B1 /* CertificateView.swift */; };
+		2E6553922A7D153300DB2A26 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6553912A7D153300DB2A26 /* Notification.swift */; };
 		2E8231442A699EDC00B4FCA0 /* TopicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8231432A699EDC00B4FCA0 /* TopicsTableViewCell.swift */; };
 		2E8231462A69A05B00B4FCA0 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8231452A69A05B00B4FCA0 /* Topic.swift */; };
 		2E99C74C2A6838B500CB5454 /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C74B2A6838B500CB5454 /* SectionsCollectionViewCell.swift */; };
@@ -43,7 +44,7 @@
 		2EC5D1502A4F0B3E00A0555C /* Design_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */; };
 		2EC5D1522A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */; };
 		2EDF558E2A7BAF4D00D14468 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF558D2A7BAF4D00D14468 /* NotificationTableViewCell.swift */; };
-		2EDF55902A7BAFFA00D14468 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */; };
+		2EDF55902A7BAFFA00D14468 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF558F2A7BAFFA00D14468 /* NotificationViewController.swift */; };
 		2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */; };
 		2EEFD7AD2A77CA7B002450FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		2E61F1E72A7A75C0007B93B1 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		2E61F1E82A7A75C0007B93B1 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
 		2E61F1E92A7A75C0007B93B1 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		2E6553912A7D153300DB2A26 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		2E8231432A699EDC00B4FCA0 /* TopicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsTableViewCell.swift; sourceTree = "<group>"; };
 		2E8231452A69A05B00B4FCA0 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		2E99C74B2A6838B500CB5454 /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -99,7 +101,7 @@
 		2EC5D14F2A4F0B3E00A0555C /* Design_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITests.swift; sourceTree = "<group>"; };
 		2EC5D1512A4F0B3E00A0555C /* Design_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EDF558D2A7BAF4D00D14468 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
-		2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		2EDF558F2A7BAFFA00D14468 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		2EEFC42A2A58724C00EA7447 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,7 +146,7 @@
 				2E99C74D2A683AEC00CB5454 /* ExploreViewController.swift */,
 				2EABCFEE2A717A7C00F64054 /* LoginViewController.swift */,
 				2EEFD7AC2A77CA7B002450FB /* LibraryViewController.swift */,
-				2EDF558F2A7BAFFA00D14468 /* NotificationsViewController.swift */,
+				2EDF558F2A7BAFFA00D14468 /* NotificationViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 				2E4CD8132A57171E008923A1 /* Course.swift */,
 				2E36DA192A5E65570050D49F /* Section.swift */,
 				2E8231452A69A05B00B4FCA0 /* Topic.swift */,
+				2E6553912A7D153300DB2A26 /* Notification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -399,7 +402,7 @@
 				2E61F1EA2A7A75C0007B93B1 /* FlipView.swift in Sources */,
 				2E61F1EB2A7A75C0007B93B1 /* CertificateItem.swift in Sources */,
 				2E8231462A69A05B00B4FCA0 /* Topic.swift in Sources */,
-				2EDF55902A7BAFFA00D14468 /* NotificationsViewController.swift in Sources */,
+				2EDF55902A7BAFFA00D14468 /* NotificationViewController.swift in Sources */,
 				2E086C822A55C8440044A1F8 /* HandbookCollectionViewCell.swift in Sources */,
 				2E36DA182A5E614E0050D49F /* CoursesViewController.swift in Sources */,
 				2EABCFEF2A717A7C00F64054 /* LoginViewController.swift in Sources */,
@@ -414,6 +417,7 @@
 				2E4EBB8A2A5046DA00C70A21 /* Font.swift in Sources */,
 				2E4EBB8B2A5046DA00C70A21 /* CustomImageView.swift in Sources */,
 				2EC5D12F2A4F0B3B00A0555C /* AppDelegate.swift in Sources */,
+				2E6553922A7D153300DB2A26 /* Notification.swift in Sources */,
 				2E4EBB882A5046DA00C70A21 /* CustomBlurView.swift in Sources */,
 				2E36DA1A2A5E65570050D49F /* Section.swift in Sources */,
 				2EEFC42B2A58724C00EA7447 /* CoursesTableViewCell.swift in Sources */,
