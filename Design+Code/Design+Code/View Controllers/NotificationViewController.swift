@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import FirebaseFirestore
 
 class NotificationViewController: UIViewController {
     @IBOutlet var cardView: CustomView!
@@ -49,14 +50,36 @@ class NotificationViewController: UIViewController {
         }
         self.dataSource.defaultRowAnimation = .fade
         
-        loadData()
+        Task {
+            do {
+                try await loadData()
+            } catch let error {
+                print("Error: \(error.localizedDescription)")
+            }
+        }
     }
     
-    private func loadData() {
+    private func loadData() async throws {
         currentSnapshot = NSDiffableDataSourceSnapshot<TBSection, NotificationModel>()
         currentSnapshot.appendSections([.main])
+        
+        let docs = try await Firestore.firestore().collection("notifications")
+            .order(by: "sentAt", descending: true)
+            .getDocuments()
+        var notifications = [NotificationModel]()
+        
+        for snapshot in docs.documents {
+            if let data = try? snapshot.data(as: NotificationModel.self) {
+                notifications.append(data)
+            }
+        }
+        
         self.currentSnapshot.appendItems(notifications, toSection: .main)
-        self.dataSource.apply(currentSnapshot, animatingDifferences: true)
+        await self.dataSource.apply(currentSnapshot, animatingDifferences: true)
+        
+        DispatchQueue.main.async {
+            self.cardView.alpha = 1
+        }
     }
 }
 
