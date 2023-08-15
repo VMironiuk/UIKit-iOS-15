@@ -1,0 +1,158 @@
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "002-EX-FN1"; */
+"002-EX-FN1.text" = "Підзаголовок";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "2cI-2f-OEf"; */
+"2cI-2f-OEf.text" = "Опис";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "2mm-Wd-G39"; */
+"2mm-Wd-G39.text" = "Підзаголовок";
+
+/* Class = "UILabel"; text = "Section Title"; ObjectID = "36o-GE-Ltk"; */
+"36o-GE-Ltk.text" = "Заголовок розділу";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4HP-3g-8Wl"; */
+"4HP-3g-8Wl.text" = "Мітка";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "4hj-d1-kXz"; */
+"4hj-d1-kXz.text" = "Ім'я автора";
+
+/* Class = "UITabBarItem"; title = "Explore"; ObjectID = "4x7-dk-yWa"; */
+"4x7-dk-yWa.title" = "Досліджуй";
+
+/* Class = "UILabel"; text = "The handbook description over here"; ObjectID = "58O-TR-y1e"; */
+"58O-TR-y1e.text" = "Опис посібника тут";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "63w-mA-Kfg"; */
+"63w-mA-Kfg.text" = "Мітка";
+
+/* Class = "UILabel"; text = "POPULAR"; ObjectID = "6OW-wo-lB4"; */
+"6OW-wo-lB4.text" = "ПОПУЛЯРНЕ";
+
+/* Class = "UILabel"; text = "Access 120+ hours of courses, tutorials and livestreams"; ObjectID = "7Cg-Dc-amh"; */
+"7Cg-Dc-amh.text" = "Отримайте доступ до 120+ годин курсів, навчальних посібників та прямих трансляцій";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "8PL-SE-Iby"; */
+"8PL-SE-Iby.text" = "SwiftUI для iOS 15";
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "AEU-5v-ATm"; */
+"AEU-5v-ATm.title" = "Бібліотека";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ATF-RZ-qUR"; */
+"ATF-RZ-qUR.text" = "Мітка";
+
+/* Class = "UIButton"; configuration.subtitle = "Sign In"; ObjectID = "Cmc-Ag-gna"; */
+"Cmc-Ag-gna.configuration.subtitle" = "Увійти";
+
+/* Class = "UIButton"; configuration.title = "Already have an account?"; ObjectID = "Cmc-Ag-gna"; */
+"Cmc-Ag-gna.configuration.title" = "Вже є акаунт?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cmc-Ag-gna"; */
+"Cmc-Ag-gna.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "CyV-Mc-I5p"; */
+"CyV-Mc-I5p.text" = "Бібліотека";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "FRq-KY-IBD"; */
+"FRq-KY-IBD.title" = "Сповіщення";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "G3v-09-hAb"; */
+"G3v-09-hAb.text" = "Мітка";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "GRE-rt-wJH"; */
+"GRE-rt-wJH.text" = "Заголовок";
+
+/* Class = "UILabel"; text = "Learn about the formatted(date:time:) method and AsyncImage as told by us in class"; ObjectID = "H7f-Xy-cYz"; */
+"H7f-Xy-cYz.text" = "Дізнайтеся про метод formatted(date:time:) та AsyncImage, як нам розповіли на занятті";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HDV-Mr-Ft6"; */
+"HDV-Mr-Ft6.text" = "Мітка";
+
+/* Class = "UILabel"; text = "RECENT COURSES"; ObjectID = "JkW-T2-VyM"; */
+"JkW-T2-VyM.text" = "ОСТАННІ КУРСИ";
+
+/* Class = "UILabel"; text = "RECENT HANDBOOKS"; ObjectID = "KL3-SA-TW3"; */
+"KL3-SA-TW3.text" = "ОСТАННІ ПОСІБНИКИ";
+
+/* Class = "UILabel"; text = "By clicking on Sign up, you agree to our Terms of service and Privacy policy."; ObjectID = "MXN-9Y-DbM"; */
+"MXN-9Y-DbM.text" = "Натискаючи \"Зареєструватися\", ви погоджуєтеся з нашими Умовами надання послуг та Політикою конфіденційності.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NAk-fS-J1u"; */
+"NAk-fS-J1u.text" = "Заголовок";
+
+/* Class = "UIButton"; configuration.title = "Create account"; ObjectID = "PjW-L5-sDg"; */
+"PjW-L5-sDg.configuration.title" = "Створити обліковий запис";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PjW-L5-sDg"; */
+"PjW-L5-sDg.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Recent"; ObjectID = "QPR-dD-sOx"; */
+"QPR-dD-sOx.text" = "Останні";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "Rnu-hw-eRR"; */
+"Rnu-hw-eRR.text" = "SwiftUI для iOS 15";
+
+/* Class = "UITabBarItem"; title = "Learn Now"; ObjectID = "UbS-gJ-P6n"; */
+"UbS-gJ-P6n.title" = "Вчіться зараз";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "X7M-qA-Ahl"; */
+"X7M-qA-Ahl.text" = "Заголовок";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "XdA-9U-zLU"; */
+"XdA-9U-zLU.text" = "Підзаголовок";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Zyj-xl-ahc"; */
+"Zyj-xl-ahc.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "CERTIFICATES"; ObjectID = "bcw-2m-86z"; */
+"bcw-2m-86z.text" = "СЕРТИФІКАТИ";
+
+/* Class = "UILabel"; text = "Section Description"; ObjectID = "eI5-yc-cfx"; */
+"eI5-yc-cfx.text" = "Опис розділу";
+
+/* Class = "UINavigationItem"; title = "Featured"; ObjectID = "gWq-CF-mpY"; */
+"gWq-CF-mpY.title" = "Рекомендоване";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gY4-qc-oJC"; */
+"gY4-qc-oJC.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Coding the Home View"; ObjectID = "jsf-w0-bf3"; */
+"jsf-w0-bf3.text" = "Кодування домашнього вигляду";
+
+/* Class = "UILabel"; text = "Build an iOS app for iOS 15 with custom layouts, animations and more!"; ObjectID = "kDv-xH-CyT"; */
+"kDv-xH-CyT.text" = "Створіть додаток для iOS 15 зі спеціальними макетами, анімаціями та більше!";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "lws-tt-AkL"; */
+"lws-tt-AkL.text" = "Опис";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "mgW-Nq-qBC"; */
+"mgW-Nq-qBC.text" = "Зареєструватися";
+
+/* Class = "UILabel"; text = "20 SECTIONS - 3 HOURS"; ObjectID = "oP2-1O-iVn"; */
+"oP2-1O-iVn.text" = "20 РОЗДІЛІВ - 3 ГОДИНИ";
+
+/* Class = "UILabel"; text = "Course Title"; ObjectID = "po7-13-4ed"; */
+"po7-13-4ed.text" = "Заголовок курсу";
+
+/* Class = "UILabel"; text = "TOPICS"; ObjectID = "pp2-Lo-PPo"; */
+"pp2-Lo-PPo.text" = "ТЕМИ";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "sa0-Od-hA4"; */
+"sa0-Od-hA4.text" = "Сповіщення";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "sh4-cW-ElS"; */
+"sh4-cW-ElS.text" = "Підзаголовок";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "taI-rn-pLQ"; */
+"taI-rn-pLQ.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "The handbook description over here"; ObjectID = "xSe-so-QRr"; */
+"xSe-so-QRr.text" = "Опис посібника тут";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "yXa-nu-7fT"; */
+"yXa-nu-7fT.placeholder" = "Адреса електронної пошти";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yat-k2-a5W"; */
+"yat-k2-a5W.text" = "Мітка";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ysz-uM-6ud"; */
+"ysz-uM-6ud.text" = "Заголовок";
