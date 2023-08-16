@@ -20,13 +20,13 @@ class Topic {
 }
 
 let topics = [
-    Topic(name: "iOS Development", icon: "iphone"),
-    Topic(name: "UI Design", icon: "eyedropper"),
-    Topic(name: "Web Development", icon: "desktopcomputer")
+    Topic(name: NSLocalizedString("iOS Development", comment: "iOS Development"), icon: "iphone"),
+    Topic(name: NSLocalizedString("UI Design", comment: "UI Design"), icon: "eyedropper"),
+    Topic(name: NSLocalizedString("Web Development", comment: "Web Development"), icon: "desktopcomputer")
 ]
 
 let librarySettings = [
-    Topic(name: "History", icon: "clock.fill"),
-    Topic(name: "Favorites", icon: "star.fill"),
-    Topic(name: "Downloads", icon: "square.and.arrow.down.fill")
+    Topic(name: NSLocalizedString("History", comment: "History"), icon: "clock.fill"),
+    Topic(name: NSLocalizedString("Favorites", comment: "Favorites"), icon: "star.fill"),
+    Topic(name: NSLocalizedString("Downloads", comment: "Downloads"), icon: "square.and.arrow.down.fill")
 ]

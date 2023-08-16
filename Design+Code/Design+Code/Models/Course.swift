@@ -53,9 +53,9 @@ let handbooks = [
 
 let courses = [
     Course(
-        title: "SwiftUI Concurrency",
-        subtitle: "NEW VIDEO",
-        description: "Build an iOS app for iOS 15 with custom layouts, animations and more!",
+        title: NSLocalizedString("SwiftUI Concurrency", comment: "SwiftUI Concurrency"),
+        subtitle: NSLocalizedString("NEW VIDEO", comment: "NEW VIDEO"),
+        description: NSLocalizedString("Build an iOS app for iOS 15 with custom layouts, animations and more!", comment: "Build an iOS app for iOS 15 with custom layouts, animations and more!"),
         icon: UIImage(named: "Logo SwiftUI"),
         banner: UIImage(named: "Illustration 4"),
         authors: ["Meng To"],
@@ -64,9 +64,9 @@ let courses = [
         sections: sections
     ),
     Course(
-        title: "Flutter for Designers",
-        subtitle: "20 sections - 3 hours",
-        description: "Build a Flutter app for iOS and Android with custom layouts, animations and more!",
+        title: NSLocalizedString("Flutter for Designers", comment: "Flutter for Designers"),
+        subtitle: NSLocalizedString("20 sections - 3 hours", comment: "20 sections - 3 hours"),
+        description: NSLocalizedString("Build a Flutter app for iOS and Android with custom layouts, animations and more!", comment: "Build a Flutter app for iOS and Android with custom layouts, animations and more!"),
         icon: UIImage(named: "Logo Flutter"),
         banner: UIImage(named: "Illustration 1"),
         authors: ["Sai Kambampati"],
@@ -75,9 +75,9 @@ let courses = [
         sections: sections
     ),
     Course(
-        title: "React Hooks Advanced",
-        subtitle: "20 sections - 3 hours",
-        description: "Build a React app with custom layouts, animations and more!",
+        title: NSLocalizedString("React Hooks Advanced", comment: "React Hooks Advanced"),
+        subtitle: NSLocalizedString("20 sections - 3 hours", comment: "20 sections - 3 hours"),
+        description: NSLocalizedString("Build a React app with custom layouts, animations and more!", comment: "Build a React app with custom layouts, animations and more!"),
         icon: UIImage(named: "Logo React"),
         banner: UIImage(named: "Illustration 2"),
         authors: ["Meng To"],

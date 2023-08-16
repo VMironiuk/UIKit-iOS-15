@@ -160,11 +160,11 @@ extension FeaturedViewController: UIScrollViewDelegate {
         
         let percentage = lastScrollYPos / contentHeight
         if percentage <= 0.15 {
-            title = "Featured"
+            title = NSLocalizedString("Featured", comment: "Featured")
         } else if percentage <= 0.33 {
-            title = "Handbooks"
+            title = NSLocalizedString("Handbooks", comment: "Handbooks")
         } else {
-            title = "Courses"
+            title = NSLocalizedString("Courses", comment: "Courses")
         }
     }
     

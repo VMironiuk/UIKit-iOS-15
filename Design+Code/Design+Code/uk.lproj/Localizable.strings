@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Design+Code
+
+  Created by Volodymyr Myroniuk on 16.08.2023.
+  
+*/
+"SwiftUI Concurrency" = "Багатопоточність в SwiftUI";
+"NEW VIDEO" = "НОВЕ ВІДЕО";
+"Build an iOS app for iOS 15 with custom layouts, animations and more!" = "Створіть додаток для iOS 15 зі спеціальними макетами, анімаціями та більше!";
+"Flutter for Designers" = "Flutter для Дизайнерів";
+"20 sections - 3 hours" = "20 розділів - 3 години";
+"Build a Flutter app for iOS and Android with custom layouts, animations and more!" = "Створіть додаток Flutter для iOS та Android зі спеціальними макетами, анімаціями та більше!";
+"React Hooks Advanced" = "Розширені React Hooks";
+"Build a React app with custom layouts, animations and more!" = "Створіть додаток React зі спеціальними макетами, анімаціями та більше!";
+"Advanced Custom Layout" = "Розширений користувацький макет";
+"SwiftUI for iOS 15" = "SwiftUI для iOS 15";
+"Build an iOS app for iOS 15 with custom layouts." = "Створіть додаток для iOS 15 зі спеціальними макетами.";
+"Coding the Home View" = "Програмування головної перегляду";
+"Learn about the formatted(date:time:) method and AsyncImage" = "Дізнайтеся про метод formatted(date:time:) та AsyncImage";
+"Colors and Shadows" = "Кольори та тіні";
+"Read about the design guidelines and how you can use color to maximize your best views" = "Дізнайтеся про рекомендації щодо дизайну та те, як ви можете використовувати кольори для максимізації ваших найкращих переглядів";
+"iOS Development" = "Розробка для iOS";
+"UI Design" = "Дизайн інтерфейсу";
+"Web Development" = "Веб-розробка";
+"History" = "Історія";
+"Favorites" = "Вибране";
+"Downloads" = "Завантаження";
+
